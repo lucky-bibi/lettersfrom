@@ -20,8 +20,8 @@ export const MOCK_LETTERS: Letter[] = [
     place: '어의관',
     excerpt: "팍팍한 대학생활 속에서 제 웃음버튼이 되어주신거 같아 남몰래 감사인사 보냅니다.",
     content: "누님 팍팍한 대학생활 속에서 제 웃음버튼이 되어주신거 같아 남몰래 감사인사 보냅니다. 웃길려고 한게 아닌데 웃긴 것이 어쩜 진정한 즐거움이 아닐까요? (누나가 엑소 보고 웃는것처럼 말입니다) 덕분에 한줄기 빛이 되었습니다. 남은 학기 잘 보내시고 시험도, 하는 일도, '덕질'도 다 잘되시길 바래요 -두일-",
-    designImage: '/assets/designImage_2025_hdy.jpg',
-    scanImage: '/assets/scanImage_2025_hdy.png',
+    designImage: '/lettersfrom/designImage_2025_hdy.jpg',
+    scanImage: '/lettersfrom/scanImage_2025_hdy.jpg',
   },
   {
     id: '2',
@@ -31,10 +31,10 @@ export const MOCK_LETTERS: Letter[] = [
     receiver: '나',
     date: '2020-08-20',
     place: '서울재즈페스티벌',
-    excerpt: "우리 그때 바다 보면서 약속했잖아, 절대 잊지 말자고.",
+    excerpt: "우리는 항상 한여름이나 한겨울에 만나게 되는 것 같아",
     content: "안녕 슬비 언니! 우리는 항상 한여름이나 한겨울에 만나게 되는 것 같아 아닌가? 몰라 그냥 언니랑 만났던 날들을 떠올리면 여름, 겨울의 계절감도 같이 느껴져. 너무 좋다! 언니 취향을 잘 모르겠어서 내 취향의 편지봉투와 편지지야 토끼는 알다시피 도영이야 네잎클로버는 언니🍀 항상 고맙고 무엇보다 언니가 건강했으면 좋겠다ㅎ 진짜 항상 응원하는 거 알지 당신의 편한사람(Just Friends) 소윤이가",
-    designImage: '/assets/designImage_2025_jsy.png',
-    scanImage: '/assets/scanImage_2025_jsy.png',
+    designImage: '/lettersfrom/designImage_2025_jsy.jpg',
+    scanImage: '/lettersfrom/scanImage_2025_jsy.jpg',
   },
   {
     id: '3',
@@ -46,8 +46,8 @@ export const MOCK_LETTERS: Letter[] = [
     place: '망원동',
     excerpt: "너와 함께하는 세 번째 겨울, 여전히 설레.",
     content: "슬비에게... 슬비 안녕 ㅎㅎ 방금까지 얼굴 보고 왔는데 이렇게 편지를 쓰려고 하니까 어색하다. 우선! 이 편지의 가장 큰 목적인 너의 생일날 진심으로 축하해! 사실 아직 생일은 다가오지 않았지만, 미리 축하인사와 선물, 편지를 건내^^ 나는 7월달이 생일이어서 너보다 빨리 생일을 맞았잖아? 사실 내가 꿈꿔보던 20살의 생일과 현실은 좀 달랐어. 무척 들뜨고, 새롭고, 희망찬 20살이 될 줄 알았는데 19살의 나와 별반 달라진게 없는... 그런 평범한 생일이었어. 너는 어떠니?",
-    designImage: '/assets/designImage_2025_yye.jpg',
-    scanImage: '/assets/scanImage_2025_yye.jpg',
+    designImage: '/lettersfrom/designImage_2025_yye.jpg',
+    scanImage: '/lettersfrom/scanImage_2025_yye.jpg',
   }
   /*
   ,
