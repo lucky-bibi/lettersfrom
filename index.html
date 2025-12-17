@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>letters from</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Google Fonts for Typography Experiments -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Black+Han+Sans&family=Gaegu:wght@400;700&family=Gowun+Batang:wght@400;700&family=Nanum+Gothic:wght@400;700&family=Nanum+Myeongjo:wght@400;700&family=Nanum+Pen+Script&family=Noto+Sans+KR:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
+    <style>
+      /* Custom Font Classes mapping to Tailwind */
+      .font-sans-kr { font-family: 'GothicA1', sans-serif; }
+      .font-serif-kr { font-family: 'Nanum Myeongjo', serif; }
+      .font-friend { font-family: 'Gaegu', cursive; } /* Replacing Gulim with a casual font */
+      .font-lover { font-family: 'Nanum Pen Script', cursive; }
+      .font-star { font-family: 'Black Han Sans', sans-serif; }
+      .font-teacher { font-family: 'Gowun Batang', serif; }
+
+      @font-face {
+      font-family: 'GothicA1';
+      src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2205@1.0/GothicA1-Light.woff2') format('woff2');
+      font-weight: 300;
+      font-display: swap;
+      }
+
+      @font-face {
+      font-family: 'GothicA1';
+      src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2205@1.0/GothicA1-Regular.woff2') format('woff2');
+      font-weight: 400;
+      font-display: swap;
+      }
+
+      .font-star { 
+        font-family: '[pretendard]', sans-serif;
+      }
+      
+      /* Hide scrollbar for clean UI but keep functionality */
+      .no-scrollbar::-webkit-scrollbar {
+          display: none;
+      }
+      .no-scrollbar {
+          -ms-overflow-style: none;  /* IE and Edge */
+          scrollbar-width: none;  /* Firefox */
+      }
+    </style>
+  <script type="importmap">
+{
+  "imports": {
+    "react-dom/": "https://aistudiocdn.com/react-dom@^19.2.1/",
+    "lucide-react": "https://aistudiocdn.com/lucide-react@^0.556.0",
+    "react/": "https://aistudiocdn.com/react@^19.2.1/",
+    "react": "https://aistudiocdn.com/react@^19.2.1",
+    "date-fns/": "https://aistudiocdn.com/date-fns@^4.1.0/",
+    "date-fns": "https://aistudiocdn.com/date-fns@^4.1.0"
+  }
+}
+</script>
+<link rel="stylesheet" href="/index.css">
+</head>
+  <body class="bg-white text-black font-sans-kr antialiased selection:bg-black selection:text-white">
+    <div id="root"></div>
+  <script type="module" src="/index.tsx"></script>
+</body>
+</html>
